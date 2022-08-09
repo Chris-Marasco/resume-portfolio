@@ -1,0 +1,57 @@
+const timelineElements = [
+  {
+    id: 1,
+    title: "Software Engineer Full Stack",
+    location: "Remote",
+    description: "Worked with developing and maintaining software for the Cold Storage supply chain. This included working with AWS services like: Lambda Functions, Cloud Formation, Api Gateway, Secrets Manager, DynamoDB, and RDS. Node.js, TypeORM, PostgreSQL, and Typescript on the back end. The front end was Angular.",
+    buttonText: "",
+    date: "November 2021 - August 2022",
+    icon: "work",
+  },
+  {
+    id: 2,
+    title: "Software Developer Engineer",
+    location: "Rochester, NY",
+    description:  "Worked on a care provider management product using .NET Web Forms that focused on improving the life of individuals with intellectual or developmental disabilities. Was also responsible for a data warehouse and business intelligence platform that utilized .NET MVC, as well as implementing and designing a project which    utilized AWS resources. These resources included Lambda, API Gateway, Secrets Manager, and    CloudFormation, and integrated with a customizable .NET MVC based survey tool.",
+    buttonText: "",
+    date: "January 2018 - Nov 2020",
+    icon: "work",
+  },
+  {
+    id: 3,
+    title: "Firehose Project",
+    location: "Remote",
+    description: "Refined skills in full stack web development.",
+    buttonText: "",
+    date: "Jan 2017 - Jan 2028",
+    icon: "work",
+  },
+  {
+    id: 4,
+    title: "Kaplan University",
+    location: "Remote",
+    description: "M.S. Information Technology; Concentration in Information Security and Assurance",
+    buttonText: "",
+    date: "Sep 2013 - Nov 2015",
+    icon: "school",
+  },
+  {
+    id: 5,
+    title: "System Administrator",
+    location: "Rochester, NY",
+    description: "Application Support for public development and production VMware-based virtualized environments using Microsoft Server and Microsoft SQL Server, along with other maintenance and script-based tasks.",
+    buttonText: "",
+    date: "Sep 2013 - Nov 2015",
+    icon: "work",
+  },
+  {
+    id: 6,
+    title: "Field Service Engineer",
+    location: "Rochester, NY",
+    description: "Responsible for closing day-to-day service tickets and looked for opportunities to make these tasks easier through scripting. Provided hardware and software technical support for end-users",
+    date: "Apr 2013 - Jun 2013",
+    icon: "work",
+  },
+];
+
+export default timelineElements;
