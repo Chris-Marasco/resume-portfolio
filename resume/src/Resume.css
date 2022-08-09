@@ -5,6 +5,9 @@
     color: rgb(44, 44, 44);
     margin-top: 1.5em;
   }
+  .date{
+    color: black !important;
+  }
 }
 
 body {
