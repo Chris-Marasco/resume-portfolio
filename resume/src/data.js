@@ -24,7 +24,7 @@ const timelineElements = [
     description: "Refined skills in full stack web development.",
     buttonText: "",
     date: "Jan 2017 - Jan 2028",
-    icon: "work",
+    icon: "school",
   },
   {
     id: 4,
@@ -51,6 +51,15 @@ const timelineElements = [
     description: "Responsible for closing day-to-day service tickets and looked for opportunities to make these tasks easier through scripting. Provided hardware and software technical support for end-users",
     date: "Apr 2013 - Jun 2013",
     icon: "work",
+  },
+  {
+    id: 7,
+    title: "Rochester Institute of Technology",
+    location: "Rochester NY",
+    description: "B.S. Information Technology; Minor in Criminal Justice",
+    buttonText: "",
+    date: "Sep 2007 - Nov 2012",
+    icon: "school",
   },
 ];
 
