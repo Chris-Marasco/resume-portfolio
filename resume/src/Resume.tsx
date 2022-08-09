@@ -19,6 +19,8 @@ function Resume() {
   return (
     <div>
       <h1 className="title">Chris Marasco</h1>
+      <hr />
+      <span>Software Engineer</span>
       <VerticalTimeline>
         {
           timelineElements.map(element => {
