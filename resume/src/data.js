@@ -54,7 +54,7 @@ const timelineElements = [
   },
   {
     id: 7,
-    title: "Kaplan University",
+    title: "Rochester Institute of Technology",
     location: "Rochester NY",
     description: "B.S. Information Technology; Minor in Criminal Justice",
     buttonText: "",
