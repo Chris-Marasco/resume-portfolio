@@ -7,8 +7,7 @@ export default class ResumeFooter extends Component {
       <div>      
         <div class="wrapper">
           <div class="push">
-            &copy; {new Date().getUTCFullYear()} Chris Marasco
-            | <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3B2q0O%2Bb5iR4GIFGF%2F92EWCg%3D%3D">LinkedIn</a>
+            &copy; {new Date().getUTCFullYear()} Chris Marasco | <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3B2q0O%2Bb5iR4GIFGF%2F92EWCg%3D%3D">LinkedIn</a>
           </div>
         </div>
         <footer class="footer"></footer>
