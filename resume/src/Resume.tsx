@@ -2,6 +2,7 @@ import './Resume.css';
 
 import { ReactComponent as WorkIcon } from "./work.svg"
 import { ReactComponent as SchoolIcon } from "./school.svg"
+import ResumeHeader from "./ResumeHeader"
 
 import timelineElements from './data';
 
@@ -18,9 +19,8 @@ function Resume() {
 
   return (
     <div>
-      <h1 className="title">Chris Marasco</h1>
-      <hr />
-      <span>Software Engineer</span>
+      {/* TODO:  Parameterize Component; Start folder restructuring if needed. */}
+      <ResumeHeader></ResumeHeader>
       <VerticalTimeline>
         {
           timelineElements.map(element => {
