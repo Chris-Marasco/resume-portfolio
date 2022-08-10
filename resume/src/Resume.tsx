@@ -19,7 +19,7 @@ function Resume() {
 
   return (
     <div>
-
+      {'*/ TODO:  Parameterize Component; Start folder restructuring if needed. /*'}
       <ResumeHeader></ResumeHeader>
       <VerticalTimeline>
         {
