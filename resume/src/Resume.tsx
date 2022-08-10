@@ -2,7 +2,8 @@ import './Resume.css';
 
 import { ReactComponent as WorkIcon } from "./work.svg"
 import { ReactComponent as SchoolIcon } from "./school.svg"
-import ResumeHeader from "./ResumeHeader"
+import ResumeHeader from "./header/ResumeHeader"
+import ResumeFooter from './footer/ResumeFooter';
 
 import timelineElements from './data';
 
@@ -55,6 +56,7 @@ function Resume() {
           })
         }
       </VerticalTimeline>
+      <ResumeFooter></ResumeFooter>
     </div>
   );
 }
