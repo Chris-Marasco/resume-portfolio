@@ -17,24 +17,27 @@ body {
   color: rgb(53, 53, 53);
 }
 
-.title {
-  font-size: 5em;
+.resume-header{
+  text-align: center;
+}
+.resume-header h1{
+  font-size: 6em;
   text-align: center;
   font-family: "Bebas Neue", sans-serif;
+  margin-bottom: 0;
 }
 
-.subtitle {
-  font-size: 2em;
-  text-align: center;
-  font-family: "Bebas Neue", sans-serif;
+.resume-sub-title{
+  margin: 0.01em;
+  font-size: 4em;
+  color:white;
 }
-
-h3 {
-  padding-top: 0.25em;
-}
-
 .Resume {
   text-align: center;
+}
+
+.resume-header p{
+  font-size: 1.5em;
 }
 
 .Resume-logo {
@@ -93,3 +96,5 @@ h3 {
 .schoolButton:hover {
   background-color: #f3bc3c;
 }
+
+
