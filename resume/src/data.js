@@ -23,7 +23,7 @@ const timelineElements = [
     location: "Remote",
     description: "Refined skills in full stack web development.",
     buttonText: "",
-    date: "Jan 2017 - Jan 2028",
+    date: "Jan 2017 - Jan 2018",
     icon: "school",
   },
   {
@@ -55,7 +55,6 @@ const timelineElements = [
   {
     id: 7,
     title: "Rochester Institute of Technology",
-
     location: "Rochester NY",
     description: "B.S. Information Technology; Minor in Criminal Justice",
     buttonText: "",
