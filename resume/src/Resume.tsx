@@ -46,8 +46,9 @@ function Resume() {
                   </h5>
                   <p id="description">{element.description}</p>
                   {showButton &&(
+                    // eslint-disable-next-line jsx-a11y/anchor-is-valid
                     <a className={`button ${ isWorkIcon ? "workButton" : "schoolButton"}`}
-                    href="/">
+                    href="#">
                       {element.buttonText}
                     </a>
                   )}
