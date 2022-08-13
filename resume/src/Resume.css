@@ -90,19 +90,19 @@ body {
 }
 
 .workButton {
-  background-color: #06d6a0;
+  background-color: #A5B583;
 }
 
 .workButton:hover {
-  background-color: #0ac593;
+  background-color: #64704c;
 }
 
 .schoolButton {
-  background-color: #f9c74f;
+  background-color: #B583A5;
 }
 
 .schoolButton:hover {
-  background-color: #f3bc3c;
+  background-color: #7a516d;
 }
 
 .wrapper {
