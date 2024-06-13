@@ -48,8 +48,9 @@ function Resume() {
                   {showButton &&(
                     // eslint-disable-next-line jsx-a11y/anchor-is-valid
                     <a className={`button ${ isWorkIcon ? "workButton" : "schoolButton"}`}
-                    href="#">
-                      {element.buttonText}
+                    target='_blank'
+                    href={ element.buttonHref ?? '#'}>
+                      {element.buttonText}                    
                     </a>
                   )}
                 </VerticalTimelineElement>
