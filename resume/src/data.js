@@ -4,7 +4,7 @@ const timelineElements = [
     title: "Software Engineer Full Stack",
     location: "Remote",
     description: "True full stack developer with a passion for the back end. Works in a Node.js, aws, mongoDb, and, React ecosystem. Lead for back end community of practice. Responsible for production release coordination.",
-    buttonText: "More"
+    buttonText: "More",
     buttonHref: "https://rentprogress.com/",
     date: "October 2022 - ",
     icon: "work",
