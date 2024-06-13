@@ -3,13 +3,22 @@ const timelineElements = [
     id: 1,
     title: "Software Engineer Full Stack",
     location: "Remote",
+    description: "True full stack developer with a passion for the back end. Works in a Node.js, aws, mongoDb, react ecosystem. Lead for back end community of practice. Responsible for production release coordination.",
+    buttonText: "More",
+    date: "October 2022 - ",
+    icon: "work",
+  },
+  {
+    id: 2,
+    title: "Software Engineer Full Stack",
+    location: "Remote",
     description: "Worked with developing and maintaining software for the Cold Storage supply chain. This included working with AWS services like: Lambda Functions, Cloud Formation, Api Gateway, Secrets Manager, DynamoDB, and RDS. Node.js, TypeORM, PostgreSQL, and Typescript on the back end. The front end was Angular.",
     buttonText: "More",
     date: "November 2021 - August 2022",
     icon: "work",
   },
   {
-    id: 2,
+    id: 3,
     title: "Software Developer Engineer",
     location: "Rochester, NY",
     description:  "Worked on a care provider management product using .NET Web Forms that focused on improving the life of individuals with intellectual or developmental disabilities. Was also responsible for a data warehouse and business intelligence platform that utilized .NET MVC, as well as implementing and designing a project which    utilized AWS resources. These resources included Lambda, API Gateway, Secrets Manager, and    CloudFormation, and integrated with a customizable .NET MVC based survey tool.",
@@ -18,7 +27,7 @@ const timelineElements = [
     icon: "work",
   },
   {
-    id: 3,
+    id: 4,
     title: "Firehose Project",
     location: "Remote",
     description: "Refined skills in full stack web development.",
@@ -27,7 +36,7 @@ const timelineElements = [
     icon: "school",
   },
   {
-    id: 4,
+    id: 5,
     title: "Kaplan University",
     location: "Remote",
     description: "M.S. Information Technology; Concentration in Information Security and Assurance",
@@ -36,7 +45,7 @@ const timelineElements = [
     icon: "school",
   },
   {
-    id: 5,
+    id: 6,
     title: "System Administrator",
     location: "Rochester, NY",
     description: "Application Support for public development and production VMware-based virtualized environments using Microsoft Server and Microsoft SQL Server, along with other maintenance and script-based tasks.",
@@ -45,7 +54,7 @@ const timelineElements = [
     icon: "work",
   },
   {
-    id: 6,
+    id: 7,
     title: "Field Service Engineer",
     location: "Rochester, NY",
     description: "Responsible for closing day-to-day service tickets and looked for opportunities to make these tasks easier through scripting. Provided hardware and software technical support for end-users",
@@ -54,7 +63,7 @@ const timelineElements = [
     buttonText: "More",
   },
   {
-    id: 7,
+    id: 8,
     title: "Rochester Institute of Technology",
     location: "Rochester NY",
     description: "B.S. Information Technology; Minor in Criminal Justice",
