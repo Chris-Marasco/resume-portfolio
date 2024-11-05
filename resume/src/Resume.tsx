@@ -22,38 +22,40 @@ function Resume() {
     <div>
       <ResumeHeader />
       <VerticalTimeline>
-        {timelineElements.map((element) => {
-          const isWorkIcon = element.icon === "work";
-          const showButton = Boolean(element.buttonText);
-          return (
-            <VerticalTimelineElement
-              key={element.id}
-              date={element.date}
-              dateClassName="date"
-              iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
-              icon={isWorkIcon ? <WorkIcon /> : <SchoolIcon />}
+        {timelineElements
+          .sort((a, b) => a.id - b.id)
+          .map((element) => {
+            const isWorkIcon = element.icon === "work";
+            const showButton = Boolean(element.buttonText);
+            return (
+              <VerticalTimelineElement
+          key={element.id}
+          date={element.date}
+          dateClassName="date"
+          iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
+          icon={isWorkIcon ? <WorkIcon /> : <SchoolIcon />}
+              >
+          <h3 className="vertical-timeline-element-title">
+            {element.title}
+          </h3>
+          <h5 className="vertical-timeline-element-subtitle">
+            {element.location}
+          </h5>
+          <p id="description">{element.description}</p>
+          {showButton && (
+            // eslint-disable-next-line jsx-a11y/anchor-is-valid
+            <a
+              className={`button ${isWorkIcon ? "workButton" : "schoolButton"}`}
+              target='_blank'
+              rel="noopener noreferrer"
+              href={element.buttonHref ?? '#'}
             >
-              <h3 className="vertical-timeline-element-title">
-                {element.title}
-              </h3>
-              <h5 className="vertical-timeline-element-subtitle">
-                {element.location}
-              </h5>
-              <p id="description">{element.description}</p>
-              {showButton && (
-                // eslint-disable-next-line jsx-a11y/anchor-is-valid
-                <a
-                  className={`button ${isWorkIcon ? "workButton" : "schoolButton"}`}
-                  target='_blank'
-                  rel="noopener noreferrer"
-                  href={element.buttonHref ?? '#'}
-                >
-                  {element.buttonText}
-                </a>
-              )}
-            </VerticalTimelineElement>
-          );
-        })}
+              {element.buttonText}
+            </a>
+          )}
+              </VerticalTimelineElement>
+            );
+          })}
       </VerticalTimeline>
       <ResumeFooter />
     </div>
