@@ -3,10 +3,10 @@ const timelineElements = [
     id: 1,
     title: "Software Engineer Full Stack",
     location: "Remote",
-    description: "True full stack developer with a passion for the back end. Works in a Node.js, aws, mongoDb, and, React ecosystem. Lead for back end community of practice. Responsible for production release coordination.",
+    description: "True full-stack developer with a passion for back-end development. Worked with Node.js, AWS, MongoDB, and React stack, and developed unit tests using Jest. Led the back-end community of practice, coordinated production releases, and integrated third-party payment APIs. Experienced with the Jira platform, refactoring codebases, creating documentation, and agile methodologies. Contributed to AWS architecture design and provided off-hours support. Played a key role in designing and implementing a new customer portal project. ",
     buttonText: "Rent Progress",
     buttonHref: "https://rentprogress.com/",
-    date: "October 2022 - Present",
+    date: "October 2022 - November 2024",
     icon: "work",
   },
   {
